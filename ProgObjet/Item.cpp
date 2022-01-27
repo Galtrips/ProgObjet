@@ -25,9 +25,8 @@ char* Item::getNom() {
 }
 
 bool Item::getValider() {
-	return Validé;
+	return ValidÃ©;
 }
-
 void Item::setNom(const char* n) {
 	if (Nom != NULL) {
 		delete[] Nom;
@@ -38,13 +37,13 @@ void Item::setNom(const char* n) {
 }
 
 void Item::setValider(bool v) {
-	Validé = v;
+	ValidÃ© = v;
 }
 
 Item::Item(const Item& i) {
 	
 	setNom(i.Nom);
-	setValider(i.Validé);
+	setValider(i.ValidÃ©);
 }
 
 void Item::Affiche() {
